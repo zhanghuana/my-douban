@@ -1,0 +1,411 @@
+/*导航条头部*/
+
+header{
+	width: 100%;
+	background: #333333;
+}
+header>div{
+	display:flex;
+	justify-content:space-between;
+
+}
+header ul.one{
+	width:34rem;
+	display:flex;
+	justify-content:space-around;
+	margin-left:-2rem;
+}
+header ul.two{
+	width: 14rem;
+	display:flex;
+	justify-content:space-around;
+	margin-right:-1rem;
+}
+header>div ul.one li{
+	width:20%;
+	height: 2.5rem;
+	display:flex;
+	justify-content:center;
+	align-items: center; 
+}
+header>div ul.two li{
+	width:33%;
+	height: 2.5rem;
+	display:flex;
+	justify-content:center;
+	align-items: center; 
+}
+header>div ul.two li:nth-child(2) a{
+	border-right:1px solid #afafaf;
+}
+header>div ul li a{
+	width: 100%;
+	color:#afafaf;
+	font-size:0.8rem;
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	align-items: center; 
+}
+header>div ul li a:hover{
+	color:gray;
+}
+
+/*banner*/
+#banner{
+	background: lightblue;
+	width: 100%;
+	height:32.5rem;
+}
+#box{
+	width: 100%;
+	height: 32.5rem;
+	background: url("../images/banner1.jpg")no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+nav{
+	width: 100%;
+	height:3rem;
+	line-height:3rem;
+	float:left;
+}
+/*一级导航*/
+a>.icon-vivo{
+	 float:left;
+	 color:white;
+	 font-size:20px;
+	 margin-left:6rem;
+ }
+a>.icon-vivo:hover{
+	color:blue;
+}
+nav>ul{
+	float:left;
+	margin-left:6.5rem;
+}
+nav>ul>li{
+	float:left;
+	padding: 0 1.3rem;
+	font-size:0.9rem;
+
+}
+nav>ul>li>a{
+	width: 100%;
+	color:white;
+}
+a>.icon-fangdajing{
+	float:left;
+	font-size:16px;
+	margin-left:6.5rem;
+}
+#box1{
+	width: 100%;
+	float:left;
+	background:#fefaf9;
+	position: absolute;
+	top:3rem;
+	z-index:3;
+	opacity: 0.95;
+}
+.ul3{
+	width: 100%;
+	height:17.5rem;
+	margin: 0 auto;
+	position: absolute;
+	display:none;
+}
+.ul3>li{
+	 /*float:left;*/
+	 width: 7rem;
+	 height:10rem;
+	 margin: 3.4rem 1.8rem;
+	display:none;
+ }
+.ul3>li>img{
+	width:100%;
+	height:7rem;
+}
+.ul3>li.more>img{
+	width: 5rem;
+	height:6.8rem;
+
+}
+
+.ul3>li>h4{
+	font-weight:normal;
+	font-size:0.9rem;
+	text-align:center;
+	margin-top:1rem;
+}
+.ul3>li.more>h4{
+	margin-left:-2rem;
+}
+.ul3>li>span{
+	display:inline-block;
+	width: 100%;
+	font-weight:normal;
+	font-size:0.7rem;
+	text-align:center;
+	margin-top:0.7rem;
+	color:blue;
+}
+
+#ul4{
+	list-style:none;
+	position:absolute;
+	bottom:10px;
+	left:39%;
+}
+#ul4>li{
+	width: 3rem;
+	height:0.7rem;
+	background: lightyellow;
+	float:left;
+	opacity:0.6;
+	margin:10px 5px;
+
+}
+#ul4>li>span.sp{
+	display:inline-block;
+	height: 0.7rem;
+	margin:0;
+	padding:0;
+	background:lightpink;
+	position:absolute;
+}
+
+
+/*search*/
+.search{
+	width:1263px;
+	height:300px;
+	background:rgba(255,255,255,1);
+	position:absolute;
+	top:2.5rem;
+	z-index:20;
+	display:none;
+
+}
+.search a>i.icon-vivo{
+	color:black;
+	display:inline-block;
+	font-size:22px;
+	margin:1.5rem 4rem;
+}
+.search a:hover i.icon-vivo{
+	color:blue;
+}
+.search .sea{
+	display:inline-block;
+	width:50%;
+	margin-left:6rem;
+	/*text-align:center;*/
+	padding:1rem;
+	border-bottom:1px solid lightgray;
+}
+.search .sea>input{
+	width:31rem;
+	height:2rem;
+	border:none;
+	outline:none;
+	background: rgba(255, 255, 255, 0);
+
+}
+.search .icon-fangdajing{
+	margin-left:3rem;
+	font-size:20px;
+}
+.search .close{
+	margin-left:2rem;
+	font-size:30px;
+	color:darkgray;
+	position:relative;
+	left:1.2rem;
+	top:0.1rem;
+}
+.search .sch{
+	/*display:inline-block;*/
+	width:50%;
+	margin-left:19rem;
+	padding:1rem;
+	display:none;
+}
+.search .sch span{
+	display:block;
+	font-size:0.8rem;
+	color:lightgray;
+	padding-bottom:1rem;
+}
+.search .sch li{
+
+	height:2rem;
+	padding-left:2rem;
+	font-size:0.9rem;
+	color:#403333;
+	/*padding-bottom:0.8rem;*/
+	line-height:2rem;
+}
+.search .sch li:hover{
+	 color:blue;
+	 background:lightgrey;
+	 opacity:0.4;
+ }
+
+
+.s1{
+    position:relative;
+	margin-top:-20rem;
+	margin-left:13rem;
+	width: 20rem;
+	text-align:center;
+}
+.s1 h2{
+	font-family: "Songti TC";
+	font-weight:normal;
+	font-size:2.5rem;
+}
+.s1 h3{
+	font-family: "Songti TC";
+	font-weight:normal;
+	font-size:1.7rem;
+}
+.s1 p{
+	font-family: "Songti TC";
+	font-weight:normal;
+	font-size:1.15rem;
+	padding:0.8rem 0 3.5rem 0;
+	color:#525158;
+}
+.s1 a{
+	color:#65646b;
+	font-size:0.7rem;
+	text-decoration:underline;
+}
+.icon-fangdajing{
+	color:gray;
+}
+/*main*/
+div.main{
+	margin-top:0.3rem;
+	padding:0;
+	width: 100%;
+	height:24rem;
+}
+div.main>div{
+	display:flex;
+	justify-content: space-around;
+}	
+div.main>div>div{
+	width: 25%;
+	height:24rem;
+	text-align:center;
+	overflow: hidden;
+
+}
+
+div.main>div>div.one{
+	
+	background:url("../images/main1.jpg")no-repeat center center;
+	background-size: 100% 100%;
+}
+div.main>div>div.two{
+	background:url("../images/main2.jpg")no-repeat center center;
+	background-size: 100% 100%;
+}
+div.main>div>div.three{
+	background:url("../images/main3.jpg")no-repeat center center;
+	background-size: 100% 100%;
+}
+div.main>div>div.four{
+	background:url("../images/main4.jpg")no-repeat center center;
+	background-size: 100% 100%;
+}
+div.main>div>div h3{
+	font-weight:normal;
+	font-size:1.1rem;
+	margin-top:1.8rem;
+}
+div.main>div>div:nth-of-type(2) h3,div.main>div>div:nth-of-type(4) h3,
+div.main>div>div:nth-of-type(2) p,div.main>div>div:nth-of-type(4) p{
+	color:white;
+}
+div.main>div>div p{
+	font-size:0.85rem;
+	margin-top:0.2rem;
+}
+
+/*footer*/
+footer{
+	background: #f7f7f7;
+}
+footer .end{
+	display:flex;
+	justify-content:space-between;
+}
+footer .end .left{
+	width: 70%;
+	display:flex;
+	justify-content:space-around;	
+}
+footer .end .left dl{
+	text-align:center;
+}
+footer .end .left dl dt{
+	padding-top:2.6rem;
+	padding-bottom:2.6rem;
+	font-weight:bold;
+	font-size:1.1rem;
+}
+footer .end .left dl dd{
+	font-size:0.85rem;
+	padding:0.3rem;
+	color:#666666;
+}
+footer .end .right{
+	width: 20%;
+	display:flex;
+	flex-direction:column;
+	align-content:center;
+}
+footer .end .right>div{
+	padding-top:2.6rem;
+}
+footer .end .right>div i{
+	color:#666666;
+	font-size:22px;
+}
+footer .end .right>div span{
+	font-size:1.2rem;
+	padding-left:0.7rem;
+}
+footer .end .right>span{
+	color:#415fff;
+	padding-top:3.2rem;
+	font-size:1.5rem;
+}
+footer .end .right> p{
+	padding-top:0.9rem;
+	font-size:0.9rem;
+}
+/*end*/
+.last{
+	border-top:1px solid #c0c0c0;
+	display:flex;
+	justify-content:space-around;
+	background-color:white;
+}
+.last span{
+	padding-left:1rem;
+	height:2rem;
+	line-height:2rem;
+	color:#666666;
+	font-size:0.7rem;
+}
+.last span:nth-child(2){
+	width: 16%;
+	display:flex;
+	justify-content: space-around;
+}
+
+

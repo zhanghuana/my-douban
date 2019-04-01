@@ -1,0 +1,238 @@
+.big{
+	width: 100%;
+	height:37rem;
+	background: #cfe3f5;
+}
+.one{
+	width: 70%;
+	margin:0 auto;
+	height:37rem;
+	background: #2799ff;
+	background: url(../images/b1.jpg)no-repeat center center ;
+	background-size:100% 100%;
+	position: relative;
+}
+.one>span{
+	display:block;
+	width:7rem;
+	height: 2.3rem;
+	background: #456fff;
+	line-height:2.2rem;
+	text-align:center;
+	position: absolute;
+	left:20%;
+}
+.one>span>.icon-vivo{
+	font-size:18px;
+	color:white;
+}
+.one>div{
+	width: 16.5rem;
+	height: 29rem;
+	background: #f8fcff;
+	position: absolute;
+	right:0rem;
+	top:3.5rem;
+	padding:1.5rem;
+}
+.big .one>div>i{
+	display:block;
+	width:100%;
+	margin:0 auto;
+	height: 2.3rem;
+	line-height:2.3rem;
+	text-align:center;
+	padding-top:0.5rem;
+}
+.big .one>div>i.icon-vivo{
+	font-size:34px;
+	color:#2799ff;
+	
+}
+.big .one>div>p{
+	display:block;
+	width: 100%;
+	margin:0 auto;
+	height: 2.3rem;
+	line-height:2.2rem;
+	text-align:center;
+	padding-top:0.5rem;
+	font-size:0.9rem;
+}
+.big .one>div>p~a{
+	display:block;
+	width: 100%;
+	text-align:right;
+	font-size:0.7rem;
+	padding-top:0.5rem;
+	/*padding-bottom:0.6rem;*/
+	color:#3296fa;
+}
+.in{
+	width: 100%;
+	height:2.3rem;
+	border:0.06rem solid #dedfe0;
+	margin-top:0.7rem;
+	font-size:0.8rem;	
+}
+
+.sp2{
+	display:block;
+	font-size:0.6rem;
+	color:red;
+	margin-left:-11rem;
+	display:none;
+}
+
+.sp1{
+	display:inline-block;
+	padding-left:0.5rem;
+	color:deepskyblue;
+	border-left:0.07rem solid #dedfe0;
+}
+
+input{
+	font-size:0.8rem;
+	border:none;
+	width: 60%;
+	height:100%;
+	outline: none;
+	background: #f8fcff;
+}
+
+.in>a{
+	display:inline-block;
+	border-left:0.06rem solid #dedfe0;
+	width: 30%;
+	text-align:center;	
+	height:2rem;
+	line-height: 2.3em;
+	color:#1585f8;
+	font-size:0.8rem;
+}
+.auto{
+	display:block;
+	width: 100%;
+	font-size:0.7rem;
+	color:#666666;
+	margin:0.7rem auto;
+	text-align:right;
+}
+span#true1{
+	display: inline-block;
+	width:0.6rem;
+	height:0.6rem;
+	line-height:0.6rem;
+	color:black;
+	font-size:0.6rem;
+	text-align: center;
+	border:0.03rem solid black;
+}
+span#true2{
+	display:none;
+}
+.right>a>input>span{
+	margin-top:-0.5rem;
+}
+.logon,.log{
+	width: 100%;
+	margin:0 auto;
+	height:2.3rem;
+	margin-top:0.7rem;	
+	cursor:pointer;
+}
+.logon>a{
+	width: 100%;
+}
+
+.logon>a>input{
+	width: 100%;
+	background:#3195f9;
+	font-size:0.9rem;
+	color:white;
+}
+.logon>a>input:hover{
+	background: #456fff;
+}
+.log>a>input{
+	width: 100%;
+	background: white;
+	border:0.06rem solid #1c89f9;
+	font-size:0.9rem;
+	color:#1c89f9;
+}
+.log>a>input:hover{
+	background: #c7e7ff;
+}
+.log+p{
+	font-size:0.65rem;
+	color:#999999;
+	margin:0.7rem auto;
+}
+.log~a{
+	display:block;
+	width: 100%;
+	font-size:0.7rem;
+	color:#666666;
+	margin:0.7rem auto;
+	text-align:center;
+}
+.method{
+	margin:0.9rem auto;
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+}
+.method i{
+	width:30%;
+	height:0;
+	border-bottom:0.06rem solid #cccccc;
+	margin:0.4rem;
+}
+.method span{
+	font-size:0.6rem;
+	color:#999999;
+}
+.method+div{
+	width: 70%;
+	display:flex;
+	justify-content: space-around;
+	margin:0 auto;
+}
+.method+div i{
+	color: #87c8ff;
+	font-size:20px;
+}
+footer{
+	width: 100%;
+	background: #f7f7f7;
+}
+footer div{
+	margin:0 auto;
+	padding-top:8rem;
+	width: 22rem;
+	display:flex;
+	justify-content: space-between;
+}
+footer div i.icon-zaixianzixun{
+	font-size:0.6rem;
+	color:#9d9d9d;
+	padding: 0.5rem;
+}
+footer div i.icon-weibiaoti-{
+	font-size:0.7rem;
+	color:#9d9d9d;
+	padding: 0.5rem;
+}
+footer div i~span{
+	color:#666666;
+	font-size:0.6rem;
+	margin-top:-0.5rem;
+}
+footer p{
+	width: 100%;
+	text-align:center;
+	font-size:0.6rem;
+	color:#9d9d9d;
+	padding: 0.5rem;
+}
