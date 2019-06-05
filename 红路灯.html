@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #box{
+            width: 420px;
+            height: 140px;
+            margin:100px auto;
+            /*display: flex;*/
+        }
+        #redLight,#greenLight,#yellowLight{
+            display:inline-block;
+            float: left;
+            width: 100px;
+            height: 100px;
+            border-radius:50%;
+            margin:15px;
+            border:1px solid black;
+            text-align:center;
+            line-height:100px;
+            font-size:50px;
+            color:white;
+        }
+        #redLight{
+            background: white;
+        }
+        #greenLight{
+            background:white;
+        }
+        {
+            background:white;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="redLight"></div>
+        <div id="greenLight"></div>
+        <div id="yellowLight"></div>
+    </div>
+</body>
+</html>
+<!--<script src="myjQuery.js "></script>-->
+<script>
+
+function redFunc(){
+    $("#redLight").style.background="orangered";
+    let count=6;
+    $("#redLight").innerHTML=count;
+    return new Promise(function(resolve, reject){
+        let myTimer=setInterval(()=>{
+            count--;
+            $("#redLight").innerHTML=count;
+            if(count<=0){
+                count=0;
+                clearInterval(myTimer);
+                $("#redLight").innerHTML=" ";
+                $("#redLight").style.background="white";
+                resolve();
+            }
+        },1000);
+    })
+}
+function greenFunc(){
+    $("#greenLight").style.background="lightgreen";
+    let count=4;
+    $("#greenLight").innerHTML=count;
+
+    return new Promise(function(resolve, reject){
+        let myTimer=setInterval(()=>{
+            count--;
+            $("#greenLight").innerHTML=count;
+            if(count<=0){
+                count=0;
+                clearInterval(myTimer);
+                $("#greenLight").innerHMTL=" ";
+                $("#greenLight").style.background="white";
+                resolve();
+            }
+
+        },1000);
+    })
+
+}
+
+function yellowFunc(){
+    $("#yellowLight").style.background="yellow";
+    let count=2;
+    $("#yellowLight").innerHTML=count;
+
+    return new Promise(function(resolve, reject){
+        let myTimer=setInterval(()=>{
+            count--;
+            if(count<=0){
+                count=0;
+                clearInterval(myTimer);
+                $("#yellowLight").innerHTML=" ";
+                $("#yellowLight").style.background="white";
+                resolve();
+            }
+            $("#yellowLight").innerHTML=count;
+        },1000);
+    })
+}
+
+function shine(){
+    redFunc().then(greenFunc).then(yellowFunc).then(shine);
+}
+
+window.onload=function(){
+    shine();
+}
+
+    function $(str){
+        if(str.charAt(0)=="#"){
+            return document.getElementById(str.substring(1));
+        }else if(str.charAt(0)=="."){
+            return document.getElementsByClassName(str.substring(1));
+        }else{
+            return document.getElementsByTagName(str);
+        }
+    }
+</script>
