@@ -1,0 +1,66 @@
+{
+    "arr":[
+        {"id":"1","name":"电影","content":"影院热映","colorstyle":"#2384e8","linkurl":"/movie"},
+        {"id":"2","name":"电视","content":"正在热播","colorstyle":"#897bdf","linkurl":"/tv"},
+        {"id":"3","name":"图书","content":"畅销排行","colorstyle":"#9f7860","linkurl":"/book"},
+        {"id":"4","name":"同城","content":"周末活动","colorstyle":"#e6467e","linkurl":"/city"},
+        {"id":"5","name":"小组","content":"志趣相投","colorstyle":"#2ab8cc","linkurl":"/teams"},
+        {"id":"6","name":"音乐","content":"新碟榜","colorstyle":"#f48f2e","linkurl":"/music"},
+        {"id":"7","name":"阅读","content":"电子书","colorstyle":"#9f7860","linkurl":"/read"},
+        {"id":"8","name":"游戏","content":"虚拟世界","colorstyle":"#5774c5","linkurl":"/play"},
+        {"id":"9","name":"应用","content":"玩手机","colorstyle":"#596cdd","linkurl":"/phoneuse"},
+        {"id":"10","name":"广播","content":"友邻动态","colorstyle":"#e1644d","linkurl":"/radio"},
+        {"id":"11","name":"FM","content":"红心歌单","colorstyle":"#40cfa9","linkurl":"/fm"},
+        {"id":"12","name":"豆品","content":"生活美学","colorstyle":"#42bd56","linkurl":"/doupin"}
+    ],
+    "darr":[
+        {"id":"13","imgurl":"../../../static/img/d1.jpg","posit":"导演","name":"弗兰克·德拉邦特"},
+        {"id":"14","imgurl":"../../../static/img/d2.jpg","posit":"演员","name":"蒂姆·罗宾斯"},
+        {"id":"15","imgurl":"../../../static/img/d3.jpg","posit":"演员","name":"摩根·弗里曼 "},
+        {"id":"16","imgurl":"../../../static/img/d4.jpg","posit":"演员","name":"鲍勃·冈顿 "},
+        {"id":"17","imgurl":"../../../static/img/d5.jpg","posit":"演员","name":"寇碧·史莫德斯"},
+        {"id":"18","imgurl":"../../../static/img/d6.jpg","posit":"演员","name":"塞缪尔·杰克逊"},
+        {"id":"19","imgurl":"../../../static/img/d7.jpg","posit":"演员","name":"乔恩·费儒"},
+        {"id":"20","imgurl":"../../../static/img/d8.jpg","posit":"演员","name":"玛丽莎·托梅"}
+    ],
+    "carr":[
+        {"id":"21","imgurlp":"../../../static/img/dd1.jpg"},
+        {"id":"22","imgurlp":"../../../static/img/p2545536876.webp"},
+        {"id":"23","imgurlp":"../../../static/img/p2554375920.webp"},
+        {"id":"24","imgurlp":"../../../static/img/p2554776260.webp"},
+        {"id":"25","imgurlp":"../../../static/img/p2555045900.webp"},
+        {"id":"26","imgurlp":"../../../static/img/p2558701345.webp"}
+    ],
+    "mark":[
+        {"id":"27","imgurl":"../../../static/img/mark2.jpg","name":"文泽尔","time":"11天前","count":"31374","content":"人的生命不过是从一个洞穴通往另一个世界..然后在那个世界的雨中继续颤抖.i hope"},
+        {"id":"28","imgurl":"../../../static/img/mark3.jpg","name":"如小果","time":"11年前","count":"9974","content":"恐惧让你沦为囚犯，希望让你重获自由"},
+        {"id":"29","imgurl":"../../../static/img/mark4.jpg","name":"kingfish","time":"13年前","count":"2624","content":"不需要女主角的好电影"}
+    ],
+    "like":[
+        {"id":"30","imgurl":"../../../static/img/l1.webp","name":"楚门的世界"},
+        {"id":"31","imgurl":"../../../static/img/l2.webp","name":"当幸福来敲门"},
+        {"id":"32","imgurl":"../../../static/img/l3.webp","name":"阿甘正传"},
+        {"id":"33","imgurl":"../../../static/img/l4.webp","name":"飞越疯人院"},
+        {"id":"34","imgurl":"../../../static/img/l3.webp","name":"阿甘正传"},
+        {"id":"35","imgurl":"../../../static/img/l2.webp","name":"楚门的世界"},
+        {"id":"36","imgurl":"../../../static/img/l4.webp","name":"当幸福来敲门"},
+        {"id":"37","imgurl":"../../../static/img/l1.webp","name":"飞越疯人院"} 
+    ],
+    "mark1":[
+        {"id":"38","title":"十年·肖申克的救赎","name":"大头绿豆","count":"65324","content":"距离斯蒂芬·金（Stephen King）和德拉邦特（Frank Darabont）们缔造这部伟大的作品已经有十年了。我知道美好的东西想必大家都能感受，但是很抱歉，我的聒噪仍将一如既..."},
+        {"id":"39","title":"终于找到了郁闷人生的原因――观《肖申克的救赎》有感","name":"隱居雲上","count":"41324","content":"周末看了一部美国影片《肖申克的救赎》（《The Shawshank Redemption》） 讲的是一位因冤案入狱的年轻银行家在牢中如何追寻自由的故事。 不同的人看同样的影片可能都有..."},
+        {"id":"40","title":"《肖申克的救赎》与斯德哥尔摩综合症－－你我都是患者！","name":"中原狮子王","count":"16324","content":"斯德哥尔摩综合症（Stockholm syndrome），斯德哥尔摩效应，又称斯德哥尔摩症候群或者称为人质情结或人质综合症，是指犯罪的被害者对于犯罪者产生情感，甚至反过来帮..."},
+        {"id":"41", "title":"Andy Dufresne","name":"[已注销]","count":"9876","content":"Andy Dufresne，一个永垂电影史册的名字。  1  关于《The Shawshank Redemption》的评论，太多，该说的差不多都已说了千万遍。对于这样一个热门的话题，再想要抒发一些..."},
+        {"id":"42", "title":"为何《肖申克的救赎》在IMDb和豆瓣都能排第一？","name":"方枪枪","count":"45657","content":"时间会证明经典的价值，虽然在某些时刻会被误判和忽视。 用上面这句话来描述电影《肖申克的救赎》丝毫不会让人觉得会有任何夸张和吹捧的意味，因为这部电影在后来多年牢..."}
+    ],
+    "tuijian":[
+        {"id":"43","content":"同时入选IMDB250和豆瓣电影250的电影"},
+        {"id":"44","content":"看过多少烂片才能捞出这些好片"},
+        {"id":"45","content":"★豆瓣高分电影榜★ （上）9.7-8.6分"},
+        {"id":"46","content":"【豆瓣五星电影集中营】(1/3)"},
+        {"id":"47","content":"他们是高智商玩家"},
+        {"id":"48","content":"【励志电影】"},
+        {"id":"49","content":"灵魂的深处是...【人性题材佳作集·收藏必备】"},
+        {"id":"50","content":"意外结局+高智商"} 
+    ]
+}
